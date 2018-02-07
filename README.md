@@ -1,6 +1,6 @@
-# Core
+# Skywars 
 this is a server core for your pocketmine server!
 # Features
-- [ ] Skywars Core
+- [x] Skywars Core
 - [x] Gadgets
 - [x] Coins
