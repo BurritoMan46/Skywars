@@ -2,7 +2,7 @@ name: Skywars
 main: Skywars\Skywars
 version: 1.0.0
 api: [3.0.0-ALPHA10]
-authors: BurritoMan46
+authors: LBSG
 description: The core plugin
 
 commands:
