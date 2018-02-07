@@ -1,0 +1,23 @@
+name: Skywars
+main: Skywars\Skywars
+version: 1.0.0
+api: [3.0.0-ALPHA10]
+authors: BurritoMan46
+description: The core plugin
+
+commands:
+    lobby:
+        description: Teleports to the lobby
+        usage: /lobby
+        aliases: [hub]
+        permission: skywars.command
+
+permissions:       
+    skywars:
+        default: op
+        description: "Gives access to skywars core commands"
+        children:
+            skywars.command:
+             description: "Allows using skywars core commands."
+             default: true
+    
